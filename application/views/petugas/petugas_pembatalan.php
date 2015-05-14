@@ -1,20 +1,20 @@
 <div class="page-container">
       <!-- START HEADER -->
-     
+      
         <div class="register-container full-height sm-p-t-30" style="margin-top:4%;margin-bottom: 40%;">
           <div class="container-sm-height full-height">
             <div class="row row-sm-height">
               <div class="col-sm-12 col-sm-height col-middle">
                 <img src="<?php echo base_url(); ?>assets/img/logo.png" alt="logo" data-src="assets/img/logo.png" data-src-retina="assets/img/logo_2x.png" width="78" height="22">
-                <h3>Pengembalian Sepeda</h3>
+                <h3>Pembatalan Peminjaman Sepeda</h3>
                
-                <form id="form-cek_kodebooking" class="p-t-15" role="form" action="index.html">
+                <form id="form-cek_kodebooking" class="p-t-15" role="form" action="pembatalan2">
                   <h4> Masukan Kode Pembayaran</h4>
                   <div class="row">
                     <div class="col-sm-6">
                       <div class="form-group form-group-default">
                         <label>Kode Pembayaran</label>
-                        <input type="text" name="kode" placeholder="Kode Pembayaran" class="form-control" required>
+                        <input type="text" name="kode" placeholder="Kode Booking" class="form-control" required>
                       </div>
                     </div>
                   <button class="btn btn-primary btn-cons m-t-10" type="submit">Cek Kode Pembayaran</button>

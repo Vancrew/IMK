@@ -8,17 +8,60 @@
                 <img src="<?php echo base_url(); ?>assets/img/logo.png" alt="logo" data-src="assets/img/logo.png" data-src-retina="assets/img/logo_2x.png" width="78" height="22">
                 <h3>Pengembalian Sepeda</h3>
                
-                <form id="form-cek_kodebooking" class="p-t-15" role="form" action="index.html">
-                  <h4> Masukan Kode Pembayaran</h4>
-                  <div class="row">
-                    <div class="col-sm-6">
-                      <div class="form-group form-group-default">
-                        <label>Kode Pembayaran</label>
-                        <input type="text" name="kode" placeholder="Kode Pembayaran" class="form-control" required>
-                      </div>
-                    </div>
-                  <button class="btn btn-primary btn-cons m-t-10" type="submit">Cek Kode Pembayaran</button>
-                </form>
+                
+                  
+                      <table class="table table-hover table-condensed" id="condensedTable">
+                        <thead>
+                          <tr>
+                            <!-- NOTE * : Inline Style Width For Table Cell is Required as it may differ from user to user 
+                                        Comman Practice Followed
+                                        -->
+                            <th style="width:20%">Kode Pembayaran</th>
+                            <th style="width:20%">No Identitas</th>
+                            <th style="width:15%">Tanggal Pengambilan</th>
+                            <th style="width:15%">Tanggal Pengembalian</th>
+                            <th style="width:15%">Status</th>
+                            <th style="width:15%">Action</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td class="v-align-middle semi-bold">P0001</td>
+                            <td class="v-align-middle">3212010304199400001</td>
+                            <td class="v-align-middle semi-bold">19-04-2015</td>
+                            <td class="v-align-middle semi-bold">25-04-2015</td>
+                            <td class="v-align-middle">Belum Telat</td>
+                            <td <button class="btn btn-success btn-cons">Pengembalian</button> </td>
+                          </tr>
+                          <tr>
+                            <td class="v-align-middle semi-bold">P0002</td>
+                            <td class="v-align-middle">3212010304199400002</td>
+                            <td class="v-align-middle semi-bold">18-04-2015</td>
+                            <td class="v-align-middle semi-bold">22-04-2015</td>
+                            <td class="v-align-middle">Belum Telat</td>
+                            <td <button class="btn btn-success btn-cons">Pengembalian</button> </td>
+                          </tr>
+                          <tr>
+                            <td class="v-align-middle semi-bold">P0003</td>
+                            <td class="v-align-middle">3212010304199400003</td>
+                            <td class="v-align-middle semi-bold">17-04-2015</td>
+                            <td class="v-align-middle semi-bold">18-04-2015</td>
+                            <td class="v-align-middle">Telat</td>
+                            <td <button class="btn btn-success btn-cons">Pengembalian</button> </td>
+                          </tr>
+                          <tr>
+                            <td class="v-align-middle semi-bold">P0004</td>
+                            <td class="v-align-middle">3212010304199400004</td>
+                            <td class="v-align-middle semi-bold">15-04-2015</td>
+                            <td class="v-align-middle semi-bold">19-04-2015</td>
+                            <td class="v-align-middle">Belum Telat</td>
+                            <td <button class="btn btn-success btn-cons">Pengembalian</button> </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    
+                
+
               </div>
             </div>
           </div>

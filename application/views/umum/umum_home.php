@@ -1,24 +1,12 @@
 <div class="page-container">
       <!-- START HEADER -->
-     
+      
         <div class="register-container full-height sm-p-t-30" style="margin-top:4%;margin-bottom: 40%;">
           <div class="container-sm-height full-height">
             <div class="row row-sm-height">
               <div class="col-sm-12 col-sm-height col-middle">
                 <img src="<?php echo base_url(); ?>assets/img/logo.png" alt="logo" data-src="assets/img/logo.png" data-src-retina="assets/img/logo_2x.png" width="78" height="22">
-                <h3>Pengembalian Sepeda</h3>
-               
-                <form id="form-cek_kodebooking" class="p-t-15" role="form" action="index.html">
-                  <h4> Masukan Kode Pembayaran</h4>
-                  <div class="row">
-                    <div class="col-sm-6">
-                      <div class="form-group form-group-default">
-                        <label>Kode Pembayaran</label>
-                        <input type="text" name="kode" placeholder="Kode Pembayaran" class="form-control" required>
-                      </div>
-                    </div>
-                  <button class="btn btn-primary btn-cons m-t-10" type="submit">Cek Kode Pembayaran</button>
-                </form>
+                
               </div>
             </div>
           </div>
@@ -188,6 +176,8 @@
          
           $(function()
           {
+
+
             function calculateDate() { 
               var date=$('input[name="reservation"]').val().split('- ') 
               var dateConv1 = new Date(date[0]); 
@@ -195,14 +185,69 @@
               var dateConv2 = new Date(date[1]); 
               var dateMill2 =dateConv2.getTime(); console.log(date) 
               var totdate = dateMill2 -dateMill1 
-              return Math.floor(totdate/86400000) + 1
+              return (Math.floor(totdate/86400000) + 1)
             }
 
-            $('#jml1').change(){
-              var jml1 = ('#jml1').val(jml1.value * 8000);
+            // $('input[name="reservation"]').change(){
 
-              ('#biaya').value = jml1;
-            }
+            // }
+
+            $('input[name="reservation"]').on("apply.daterangepicker",function(){
+              var jml1 = $('#jml1 option:selected').val() * 25000;
+              var jml2 = $('#jml2 option:selected').val() * 50000;
+              var jml3 = $('#jml3 option:selected').val() * 75000;
+              var jml4 = $('#jml4 option:selected').val() * 100000;
+              var days = calculateDate();
+              var total = (jml1 + jml2 + jml3 + jml4) * days
+              $('#biaya').val(total);
+            
+            })
+
+            $('#jml1').change(function(){
+              var jml1 = $('#jml1 option:selected').val() * 25000;
+              var jml2 = $('#jml2 option:selected').val() * 50000;
+              var jml3 = $('#jml3 option:selected').val() * 75000;
+              var jml4 = $('#jml4 option:selected').val() * 100000;
+              var days = calculateDate();
+              var total = (jml1 + jml2 + jml3 + jml4) * days
+              $('#biaya').val(total);
+            
+            })
+              
+
+            $('#jml2').change(function(){
+              var jml1 = $('#jml1 option:selected').val() * 25000;
+              var jml2 = $('#jml2 option:selected').val() * 50000;
+              var jml3 = $('#jml3 option:selected').val() * 75000;
+              var jml4 = $('#jml4 option:selected').val() * 100000;
+              var days = calculateDate();
+              var total = (jml1 + jml2 + jml3 + jml4) * days
+              $('#biaya').val(total);
+            
+            })
+
+            $('#jml3').change(function(){
+              var jml1 = $('#jml1 option:selected').val() * 25000;
+              var jml2 = $('#jml2 option:selected').val() * 50000;
+              var jml3 = $('#jml3 option:selected').val() * 75000;
+              var jml4 = $('#jml4 option:selected').val() * 100000;
+              var days = calculateDate();
+              var total = (jml1 + jml2 + jml3 + jml4) * days
+              $('#biaya').val(total);
+            
+            })
+
+            $('#jml4').change(function(){
+              var jml1 = $('#jml1 option:selected').val() * 25000;
+              var jml2 = $('#jml2 option:selected').val() * 50000;
+              var jml3 = $('#jml3 option:selected').val() * 75000;
+              var jml4 = $('#jml4 option:selected').val() * 100000;
+              var days = calculateDate();
+              var total = (jml1 + jml2 + jml3 + jml4) * days
+              $('#biaya').val(total);
+            
+            })
+
           })
 
           $(function() {

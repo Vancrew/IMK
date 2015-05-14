@@ -1,5 +1,6 @@
 <div class="page-container">
       <!-- START HEADER -->
+<<<<<<< HEAD
       <div class="header ">
         <!-- START MOBILE CONTROLS -->
         <!-- LEFT SIDE -->
@@ -23,11 +24,15 @@
           <!-- END ACTION BAR -->
         </div>
       </div>
+=======
+      
+>>>>>>> b31493f0f1cdf297e0add6e46321664876f6f978
         <div class="register-container full-height sm-p-t-30" style="margin-top:4%;margin-bottom: 40%;">
           <div class="container-sm-height full-height">
             <div class="row row-sm-height">
               <div class="col-sm-12 col-sm-height col-middle">
                 <img src="<?php echo base_url(); ?>assets/img/logo.png" alt="logo" data-src="assets/img/logo.png" data-src-retina="assets/img/logo_2x.png" width="78" height="22">
+<<<<<<< HEAD
                 <h3>Rental Sepeda Adalah Layanan Peminjaman Sepeda</h3>
                 <p>
                   <small>
@@ -54,18 +59,41 @@
                       <div class="form-group form-group-default">
                         <label>Password</label>
                         <input type="password" name="pass" placeholder="Minimum of 4 Charactors" class="form-control" required>
+=======
+                <h3>Reservasi Peminjaman Sepeda</h3>
+                  
+                <form id="form-data_peminjaman" class="p-t-15" role="form" action="reservasi2">
+                  <h4>Isi Data Reservasi Peminjaman Sepeda</h4>
+                         
+
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="form-group form-group-default input-group col-sm-12">
+                        <label>Tanggal Peminjaman</label>
+                        <input type="text" style="width: 100%" name="reservation" id="daterangepicker" class="form-control" value="01/01/2015 8:00 AM - 01/01/2015 4:00 PM" />
+                        <span class="add-on input-group-addon"><i class="glyphicon glyphicon-calendar fa fa-calendar"></i></span>
+                        
+>>>>>>> b31493f0f1cdf297e0add6e46321664876f6f978
                       </div>
                     </div>
                   </div>
 
+<<<<<<< HEAD
                  <div class="row">
                     <div class="col-sm-6">
                       <div class="form-group form-group-default input-group col-sm-12">
                         <label>Tanggal Lahir</label>
+=======
+                <!--   <div class="row">
+                    <div class="col-sm-12">
+                      <div class="form-group form-group-default input-group col-sm-12">
+                        <label>Tanggal Pengembalian</label>
+>>>>>>> b31493f0f1cdf297e0add6e46321664876f6f978
                         <input type="text" class="form-control" placeholder="Pick a date" id="datepicker-component2" required>
                         <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
                       </div>
                     </div>
+<<<<<<< HEAD
                     <div class="col-sm-6">
                       <div class="form-group form-group-default">
                         <label>Tempat Lahir</label>
@@ -131,11 +159,147 @@
                         <label>Telephone</label>
                         <span class="help">e.g. "(62)87 333-234-243"</span>
                         <input type="text" name="phone" id="phone" class="form-control"  required>
+=======
+                  </div>
+ -->
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="form-group form-group-default">
+                        <label>Jumlah Sepeda</label>
+
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="form-group form-group-default">
+                              <label class="">Sepeda Anak - Anak</label>
+                              <span class="help">Rp 25.000/sepeda/hari</span>
+                              <select class="full-width" id="jml1" data-placeholder="Select Country" data-init-plugin="select2">
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="form-group form-group-default">
+                              <label class="">Sepeda Standar</label>
+                              <span class="help">Rp 50.000/sepeda/hari</span>
+                              <select class="full-width" id="jml2" data-placeholder="Select Country" data-init-plugin="select2">
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="form-group form-group-default">
+                              <label class="">Sepeda Gunung</label>
+                              <span class="help">Rp 75.000/sepeda/hari</span>
+                              <select class="full-width" id="jml3" data-placeholder="Select Country" data-init-plugin="select2">
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="form-group form-group-default">
+                              <label class="">Sepeda Tandem</label>
+                              <span class="help">Rp 100.000/sepeda/hari</span>
+                              <select class="full-width" id="jml4" data-placeholder="Select Country" data-init-plugin="select2">
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+                      
+                      </div>
+                    </div>
+                  </div>
+                  <!-- 
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="form-group form-group-default">
+                        <label>Jumlah Sepeda Mountain Bikes</label>
+                        <input type="text" name="jumlah" placeholder="Jumlah Sepeda" class="form-control" required>
+                        <select name="jml2" class="form-control">
+                          <option value="0">0</option>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                          <option value="6">6</option>
+                          <option value="7">7</option>
+                          <option value="8">8</option>
+                          <option value="9">9</option>
+                          <option value="10">10</option>
+                        </select>
                       </div>
                     </div>
                   </div>
 
                   <div class="row">
+                    <div class="col-sm-12">
+                      <div class="form-group form-group-default">
+                        <label>Jumlah Sepeda Standard Bikes</label>
+                        <input type="text" name="jumlah" placeholder="Jumlah Sepeda" class="form-control" required>
+                        <select name="jml3" class="form-control">
+                          <option value="0">0</option>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                          <option value="6">6</option>
+                          <option value="7">7</option>
+                          <option value="8">8</option>
+                          <option value="9">9</option>
+                          <option value="10">10</option>
+                        </select>
+>>>>>>> b31493f0f1cdf297e0add6e46321664876f6f978
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+<<<<<<< HEAD
                     <div class="form-group form-group-default">
                      <label>Pilih Jumlah Pembayaran Member Premium </label>
                      <span class="help">(jika tidak ingin menjadi member premium biarkan 0) </span>
@@ -201,6 +365,39 @@
                   </div>
 
                   <button class="btn btn-primary btn-cons m-t-10" type="submit">Create a new account</button>
+=======
+                    <div class="col-sm-12">
+                      <div class="form-group form-group-default">
+                        <label>Jumlah Sepeda Tandem Bikes </label>
+                        <input type="text" name="jumlah" placeholder="Jumlah Sepeda" class="form-control" required>
+                        <select name="jml4" class="form-control">
+                          <option value="0">0</option>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                          <option value="6">6</option>
+                          <option value="7">7</option>
+                          <option value="8">8</option>
+                          <option value="9">9</option>
+                          <option value="10">10</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div> -->
+                   
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="form-group form-group-default">
+                        <label>Biaya</label>
+                        <input type="text" name="biaya" value="0" id="biaya" placeholder="Total Biaya" class="form-control" disabled="">
+                      </div>
+                    </div>
+                  </div>
+
+                  <button class="btn btn-primary btn-cons m-t-10" type="submit">Submit</button>
+>>>>>>> b31493f0f1cdf297e0add6e46321664876f6f978
                 </form>
               </div>
             </div>
@@ -369,6 +566,85 @@
             $('#form-register').validate()
           })
          
+<<<<<<< HEAD
+=======
+          $(function()
+          {
+
+
+            function calculateDate() { 
+              var date=$('input[name="reservation"]').val().split('- ') 
+              var dateConv1 = new Date(date[0]); 
+              var dateMill1 =dateConv1.getTime(); 
+              var dateConv2 = new Date(date[1]); 
+              var dateMill2 =dateConv2.getTime(); console.log(date) 
+              var totdate = dateMill2 -dateMill1 
+              return (Math.floor(totdate/86400000) + 1)
+            }
+
+            // $('input[name="reservation"]').change(){
+
+            // }
+
+            $('input[name="reservation"]').on("apply.daterangepicker",function(){
+              var jml1 = $('#jml1 option:selected').val() * 25000;
+              var jml2 = $('#jml2 option:selected').val() * 50000;
+              var jml3 = $('#jml3 option:selected').val() * 75000;
+              var jml4 = $('#jml4 option:selected').val() * 100000;
+              var days = calculateDate();
+              var total = (jml1 + jml2 + jml3 + jml4) * days
+              $('#biaya').val(total);
+            
+            })
+
+            $('#jml1').change(function(){
+              var jml1 = $('#jml1 option:selected').val() * 25000;
+              var jml2 = $('#jml2 option:selected').val() * 50000;
+              var jml3 = $('#jml3 option:selected').val() * 75000;
+              var jml4 = $('#jml4 option:selected').val() * 100000;
+              var days = calculateDate();
+              var total = (jml1 + jml2 + jml3 + jml4) * days
+              $('#biaya').val(total);
+            
+            })
+              
+
+            $('#jml2').change(function(){
+              var jml1 = $('#jml1 option:selected').val() * 25000;
+              var jml2 = $('#jml2 option:selected').val() * 50000;
+              var jml3 = $('#jml3 option:selected').val() * 75000;
+              var jml4 = $('#jml4 option:selected').val() * 100000;
+              var days = calculateDate();
+              var total = (jml1 + jml2 + jml3 + jml4) * days
+              $('#biaya').val(total);
+            
+            })
+
+            $('#jml3').change(function(){
+              var jml1 = $('#jml1 option:selected').val() * 25000;
+              var jml2 = $('#jml2 option:selected').val() * 50000;
+              var jml3 = $('#jml3 option:selected').val() * 75000;
+              var jml4 = $('#jml4 option:selected').val() * 100000;
+              var days = calculateDate();
+              var total = (jml1 + jml2 + jml3 + jml4) * days
+              $('#biaya').val(total);
+            
+            })
+
+            $('#jml4').change(function(){
+              var jml1 = $('#jml1 option:selected').val() * 25000;
+              var jml2 = $('#jml2 option:selected').val() * 50000;
+              var jml3 = $('#jml3 option:selected').val() * 75000;
+              var jml4 = $('#jml4 option:selected').val() * 100000;
+              var days = calculateDate();
+              var total = (jml1 + jml2 + jml3 + jml4) * days
+              $('#biaya').val(total);
+            
+            })
+
+          })
+
+>>>>>>> b31493f0f1cdf297e0add6e46321664876f6f978
           $(function() {
             $( "#slider-range-min" ).slider({
               range: "min",

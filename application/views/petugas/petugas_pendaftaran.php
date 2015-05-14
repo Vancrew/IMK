@@ -1,32 +1,6 @@
 <div class="page-container">
       <!-- START HEADER -->
-<<<<<<< HEAD
-      <div class="header ">
-        <!-- START MOBILE CONTROLS -->
-        <!-- LEFT SIDE -->
-        <div class="pull-left full-height visible-sm visible-xs">
-          <!-- START ACTION BAR -->
-          <div class="sm-action-bar">
-            <a href="#" class="btn-link toggle-sidebar" data-toggle="sidebar">
-              <span class="icon-set menu-hambuger"></span>
-            </a>
-          </div>
-          <!-- END ACTION BAR -->
-        </div>
-        <!-- RIGHT SIDE -->
-        <div class="pull-right full-height visible-sm visible-xs">
-          <!-- START ACTION BAR -->
-          <div class="sm-action-bar">
-            <a href="#" class="btn-link" data-toggle="quickview" data-toggle-element="#quickview">
-              <span class="icon-set menu-hambuger-plus"></span>
-            </a>
-          </div>
-          <!-- END ACTION BAR -->
-        </div>
-      </div>
-=======
       
->>>>>>> b31493f0f1cdf297e0add6e46321664876f6f978
         <div class="register-container full-height sm-p-t-30" style="margin-top:4%;margin-bottom: 40%;">
           <div class="container-sm-height full-height">
             <div class="row row-sm-height">
@@ -143,76 +117,47 @@
                     <div class="form-group form-group-default">
                      <label>Pilih Jumlah Pembayaran Member Premium </label>
                      <span class="help">(jika tidak ingin menjadi member premium biarkan 0) </span>
-<<<<<<< HEAD
-                      <div class="col-sm-12">
-=======
                         
->>>>>>> b31493f0f1cdf297e0add6e46321664876f6f978
                         <div class="row">
                           <div class="col-sm-3">
                             <label class="resource">Kids Bikes</label>
                           </div>
-<<<<<<< HEAD
-                           <div class="col-sm-4">
-                            <input type="text"  class="resource" disabled id="kidsBike" />
-                          </div>
-=======
                            <div class="col-sm-5">
                             <input type="text"  class="resource" disabled id="kidsBike" />
                           </div>
                            <div class="col-sm-4">
                             <img class="sepedaImg" src="<?php echo base_url(); ?>assets/img/sepeda/kids.jpg" width="78" height="22">
                           </div>
->>>>>>> b31493f0f1cdf297e0add6e46321664876f6f978
                         </div>
                   
                         <div class="row">
                           <div class="col-sm-3">
                             <label class="resource">Mountain Bikes</label>
                           </div>
-<<<<<<< HEAD
-                           <div class="col-sm-4">             
-                            <input type="text"  class="resource" disabled id="mountBike" />                                                    
-                          </div>
-=======
                            <div class="col-sm-5">             
                             <input type="text"  class="resource" disabled id="mountBike" />                                                    
                           </div>
                            <div class="col-sm-4">
                             <img class="sepedaImg" src="<?php echo base_url(); ?>assets/img/sepeda/mountain.jpg" width="78" height="22">
                           </div>
->>>>>>> b31493f0f1cdf297e0add6e46321664876f6f978
                         </div>
 
                         <div class="row">
                           <div class="col-sm-3">
                             <label class="resource">Standard Bikes</label>
                           </div>
-<<<<<<< HEAD
-                           <div class="col-sm-4">
-                            <input type="text"  class="resource" disabled id="normalBike" />                          
-                          </div>
-=======
                            <div class="col-sm-5">
                             <input type="text"  class="resource" disabled id="normalBike" />                          
                           </div>
                            <div class="col-sm-4">
                             <img class="sepedaImg" src="<?php echo base_url(); ?>assets/img/sepeda/standard.jpg" width="78" height="22">
                           </div>
->>>>>>> b31493f0f1cdf297e0add6e46321664876f6f978
                         </div>
 
                         <div class="row">
                           <div class="col-sm-3">
                             <label class="resource">Tandem Bikes </label>
                           </div>
-<<<<<<< HEAD
-                           <div class="col-sm-4">
-                            <input type="text"  class="resource" disabled id="tandemBike" />                          
-                          </div>
-                        </div>
-                        
-=======
                            <div class="col-sm-5">
                             <input type="text"  class="resource" disabled id="tandemBike" />                          
                           </div>
@@ -220,7 +165,6 @@
                             <img class="sepedaImg" src="<?php echo base_url(); ?>assets/img/sepeda/tandem.jpg" width="78" height="22">
                           </div>
                         </div>
->>>>>>> b31493f0f1cdf297e0add6e46321664876f6f978
                         <div class="row">
                             <div class="cube">
                               <div class="a"></div>
@@ -231,11 +175,7 @@
                             </div>
                             <input type="text"  class="slider" disabled id="amount" />
                         </div>
-<<<<<<< HEAD
-                      </div>
-=======
                       
->>>>>>> b31493f0f1cdf297e0add6e46321664876f6f978
                     </div>
                   </div>
 
@@ -411,12 +351,8 @@
           <script type="text/javascript" src="<?php echo base_url(); ?>assets/plugins/bootstrap-tag/bootstrap-tagsinput.min.js"></script>
           <script src="<?php echo base_url(); ?>assets/js/form_elements.js" type="text/javascript"></script>
           <script src="<?php echo base_url(); ?>assets/js/jquery-ui.js" type="text/javascript"></script>
-<<<<<<< HEAD
-         
-=======
           <script src="<?php echo base_url(); ?>assets/js/jquery.hoverpulse.js"></script>
           <script src="<?php echo base_url(); ?>assets/js/animateHoverPulse.js"></script>
->>>>>>> b31493f0f1cdf297e0add6e46321664876f6f978
         <script type="text/javascript">
           $(function()
           {
@@ -453,8 +389,6 @@
             $( "#normalBike" ).val( $( "#slider-range-min" ).slider( "value") + " bikes/month");
             $( "#tandemBike" ).val( $( "#slider-range-min" ).slider( "value")*0 + " bikes/month");
           });
-<<<<<<< HEAD
-=======
           $(function() {
             $('.sepedaImg').hoverpulse({
               size: 75,
@@ -463,7 +397,6 @@
               zIndexNormal: 1
             });
           });
->>>>>>> b31493f0f1cdf297e0add6e46321664876f6f978
         </script>
       
 </div>

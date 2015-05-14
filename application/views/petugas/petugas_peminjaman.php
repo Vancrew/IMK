@@ -1,5 +1,6 @@
 <div class="page-container">
       <!-- START HEADER -->
+<<<<<<< HEAD
       <div class="header ">
         <!-- START MOBILE CONTROLS -->
         <!-- LEFT SIDE -->
@@ -23,11 +24,15 @@
           <!-- END ACTION BAR -->
         </div>
       </div>
+=======
+      
+>>>>>>> b31493f0f1cdf297e0add6e46321664876f6f978
         <div class="register-container full-height sm-p-t-30" style="margin-top:4%;margin-bottom: 40%;">
           <div class="container-sm-height full-height">
             <div class="row row-sm-height">
               <div class="col-sm-12 col-sm-height col-middle">
                 <img src="<?php echo base_url(); ?>assets/img/logo.png" alt="logo" data-src="assets/img/logo.png" data-src-retina="assets/img/logo_2x.png" width="78" height="22">
+<<<<<<< HEAD
                 <h3>Peminjaman Sepeda</h3>
                 <p>
                   <small>
@@ -248,6 +253,20 @@
                   </div>
 
                   <button class="btn btn-primary btn-cons m-t-10" type="submit">Create a new account</button>
+=======
+                <h3>Pengambilan Sepeda</h3>
+               
+                <form id="form-cek_kodebooking" class="p-t-15" role="form" action="peminjaman2">
+                  <h4> Masukan Kode Pembayaran</h4>
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="form-group form-group-default">
+                        <label>Kode Pembayaran</label>
+                        <input type="text" name="kode" placeholder="Kode Booking" class="form-control" required>
+                      </div>
+                    </div>
+                  <button class="btn btn-primary btn-cons m-t-10" type="submit">Cek Kode Pembayaran</button>
+>>>>>>> b31493f0f1cdf297e0add6e46321664876f6f978
                 </form>
               </div>
             </div>
@@ -416,6 +435,28 @@
             $('#form-register').validate()
           })
          
+<<<<<<< HEAD
+=======
+          $(function()
+          {
+            function calculateDate() { 
+              var date=$('input[name="reservation"]').val().split('- ') 
+              var dateConv1 = new Date(date[0]); 
+              var dateMill1 =dateConv1.getTime(); 
+              var dateConv2 = new Date(date[1]); 
+              var dateMill2 =dateConv2.getTime(); console.log(date) 
+              var totdate = dateMill2 -dateMill1 
+              return Math.floor(totdate/86400000) + 1
+            }
+
+            $('#jml1').change(){
+              var jml1 = ('#jml1').val(jml1.value * 8000);
+
+              ('#biaya').value = jml1;
+            }
+          })
+
+>>>>>>> b31493f0f1cdf297e0add6e46321664876f6f978
           $(function() {
             $( "#slider-range-min" ).slider({
               range: "min",
