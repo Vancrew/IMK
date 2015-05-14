@@ -1,65 +1,11 @@
 <div class="page-container">
       <!-- START HEADER -->
-<<<<<<< HEAD
-      <div class="header ">
-        <!-- START MOBILE CONTROLS -->
-        <!-- LEFT SIDE -->
-        <div class="pull-left full-height visible-sm visible-xs">
-          <!-- START ACTION BAR -->
-          <div class="sm-action-bar">
-            <a href="#" class="btn-link toggle-sidebar" data-toggle="sidebar">
-              <span class="icon-set menu-hambuger"></span>
-            </a>
-          </div>
-          <!-- END ACTION BAR -->
-        </div>
-        <!-- RIGHT SIDE -->
-        <div class="pull-right full-height visible-sm visible-xs">
-          <!-- START ACTION BAR -->
-          <div class="sm-action-bar">
-            <a href="#" class="btn-link" data-toggle="quickview" data-toggle-element="#quickview">
-              <span class="icon-set menu-hambuger-plus"></span>
-            </a>
-          </div>
-          <!-- END ACTION BAR -->
-        </div>
-      </div>
-=======
       
->>>>>>> b31493f0f1cdf297e0add6e46321664876f6f978
         <div class="register-container full-height sm-p-t-30" style="margin-top:4%;margin-bottom: 40%;">
           <div class="container-sm-height full-height">
             <div class="row row-sm-height">
               <div class="col-sm-12 col-sm-height col-middle">
                 <img src="<?php echo base_url(); ?>assets/img/logo.png" alt="logo" data-src="assets/img/logo.png" data-src-retina="assets/img/logo_2x.png" width="78" height="22">
-<<<<<<< HEAD
-                <h3>Rental Sepeda Adalah Layanan Peminjaman Sepeda</h3>
-                <p>
-                  <small>
-                    Buat Akun Rental Sepeda Untuk Menggunakan Layanan Kami 
-                  </small>
-                </p>
-                <form id="form-register" class="p-t-15" role="form" action="index.html">
-                  <div class="row">
-                    <div class="col-sm-6">
-                      <div class="form-group form-group-default">
-                        <label>First Name</label>
-                        <input type="text" name="fname" placeholder="John" class="form-control" required>
-                      </div>
-                    </div>
-                    <div class="col-sm-6">
-                      <div class="form-group form-group-default">
-                        <label>Last Names</label>
-                        <input type="text" name="lname" placeholder="Smith" class="form-control" required>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-sm-12">
-                      <div class="form-group form-group-default">
-                        <label>Password</label>
-                        <input type="password" name="pass" placeholder="Minimum of 4 Charactors" class="form-control" required>
-=======
                 <h3>Reservasi Peminjaman Sepeda</h3>
                   
                 <form id="form-data_peminjaman" class="p-t-15" role="form" action="reservasi2">
@@ -73,93 +19,18 @@
                         <input type="text" style="width: 100%" name="reservation" id="daterangepicker" class="form-control" value="01/01/2015 8:00 AM - 01/01/2015 4:00 PM" />
                         <span class="add-on input-group-addon"><i class="glyphicon glyphicon-calendar fa fa-calendar"></i></span>
                         
->>>>>>> b31493f0f1cdf297e0add6e46321664876f6f978
                       </div>
                     </div>
                   </div>
 
-<<<<<<< HEAD
-                 <div class="row">
-                    <div class="col-sm-6">
-                      <div class="form-group form-group-default input-group col-sm-12">
-                        <label>Tanggal Lahir</label>
-=======
                 <!--   <div class="row">
                     <div class="col-sm-12">
                       <div class="form-group form-group-default input-group col-sm-12">
                         <label>Tanggal Pengembalian</label>
->>>>>>> b31493f0f1cdf297e0add6e46321664876f6f978
                         <input type="text" class="form-control" placeholder="Pick a date" id="datepicker-component2" required>
                         <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
                       </div>
                     </div>
-<<<<<<< HEAD
-                    <div class="col-sm-6">
-                      <div class="form-group form-group-default">
-                        <label>Tempat Lahir</label>
-                        <input type="text" name="tempatLahir" placeholder="Tempat Lahir Anda" class="form-control" required>
-                      </div>
-                    </div>
-                  <div class="row">
-                    <div class="col-sm-12">
-                      <div class="form-group form-group-default">
-                        <label>Alamat</label>
-                        <input type="text" name="alamat" placeholder="Alamat anda" class="form-control" required>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-sm-12">
-                      <div class="form-group form-group-default">
-                      <label>Jenis Kelamin</label>
-                        <div class="radio radio-success">
-                          <input type="radio" value="P" name="optionyes" id="yes">
-                          <label for="yes">PRIA</label>
-                          <input type="radio" checked="checked" value="W" name="optionyes" id="no">
-                          <label for="no">WANITA</label>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="form-group form-group-default">
-                    <div class="row">
-                    <label>Pilih Tanda Pengenal</label>
-                      <div class="col-sm-3">
-                        <div class="radio radio-success">
-                          <input type="radio" value="KTP" name="tipePengenal" id="ktp">
-                          <label for="ktp">KTP</label>
-                        </div>
-                      </div>
-                      
-                      <div class="col-sm-3">
-                        <div class="radio radio-success">
-                          <input type="radio" checked="checked" value="SIM" name="tipePengenal" id="sim">
-                          <label for="sim">SIM</label>
-                        </div>
-                      </div>
-                      </div>
-                      <div class="row">
-                        <label>Masukkan Nomor Tanda Pengenal</label>
-                        <input type="text" id="noPengenal" name="nomorPengenal" placeholder="Nomor Pengenal" class="form-control" required>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-sm-12">
-                      <div class="form-group form-group-default">
-                        <label>Email</label>
-                        <input type="email" name="email" placeholder="We will send loging details to you" class="form-control" required>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-sm-12">
-                      <div class="form-group form-group-default">
-                        <label>Telephone</label>
-                        <span class="help">e.g. "(62)87 333-234-243"</span>
-                        <input type="text" name="phone" id="phone" class="form-control"  required>
-=======
                   </div>
  -->
                   <div class="row">
@@ -293,79 +164,11 @@
                           <option value="9">9</option>
                           <option value="10">10</option>
                         </select>
->>>>>>> b31493f0f1cdf297e0add6e46321664876f6f978
                       </div>
                     </div>
                   </div>
 
                   <div class="row">
-<<<<<<< HEAD
-                    <div class="form-group form-group-default">
-                     <label>Pilih Jumlah Pembayaran Member Premium </label>
-                     <span class="help">(jika tidak ingin menjadi member premium biarkan 0) </span>
-                      <div class="col-sm-12">
-                        <div class="row">
-                          <div class="col-sm-3">
-                            <label class="resource">Kids Bikes</label>
-                          </div>
-                           <div class="col-sm-4">
-                            <input type="text"  class="resource" disabled id="kidsBike" />
-                          </div>
-                        </div>
-                  
-                        <div class="row">
-                          <div class="col-sm-3">
-                            <label class="resource">Mountain Bikes</label>
-                          </div>
-                           <div class="col-sm-4">             
-                            <input type="text"  class="resource" disabled id="mountBike" />                                                    
-                          </div>
-                        </div>
-
-                        <div class="row">
-                          <div class="col-sm-3">
-                            <label class="resource">Standard Bikes</label>
-                          </div>
-                           <div class="col-sm-4">
-                            <input type="text"  class="resource" disabled id="normalBike" />                          
-                          </div>
-                        </div>
-
-                        <div class="row">
-                          <div class="col-sm-3">
-                            <label class="resource">Tandem Bikes </label>
-                          </div>
-                           <div class="col-sm-4">
-                            <input type="text"  class="resource" disabled id="tandemBike" />                          
-                          </div>
-                        </div>
-                        
-                        <div class="row">
-                            <div class="cube">
-                              <div class="a"></div>
-                              <div class="b"></div>
-                              <div class="c"></div>
-                              <div class="d"></div>
-                              <div id="slider-range-min"></div>
-                            </div>
-                            <input type="text"  class="slider" disabled id="amount" />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-
-                  <div class="row m-t-10">
-                    <div class="col-md-6">
-                      <p>I agree to the <a href="#" class="text-info small">Pages Terms</a> and <a href="#" class="text-info small">Privacy</a>.</p>
-                    </div>
-                    <div class="col-md-6 text-right">
-                      <a href="#" class="text-info small">Help? Contact Support</a>
-                    </div>
-                  </div>
-
-                  <button class="btn btn-primary btn-cons m-t-10" type="submit">Create a new account</button>
-=======
                     <div class="col-sm-12">
                       <div class="form-group form-group-default">
                         <label>Jumlah Sepeda Tandem Bikes </label>
@@ -397,7 +200,6 @@
                   </div>
 
                   <button class="btn btn-primary btn-cons m-t-10" type="submit">Submit</button>
->>>>>>> b31493f0f1cdf297e0add6e46321664876f6f978
                 </form>
               </div>
             </div>
@@ -566,8 +368,6 @@
             $('#form-register').validate()
           })
          
-<<<<<<< HEAD
-=======
           $(function()
           {
 
@@ -644,7 +444,6 @@
 
           })
 
->>>>>>> b31493f0f1cdf297e0add6e46321664876f6f978
           $(function() {
             $( "#slider-range-min" ).slider({
               range: "min",

@@ -30,10 +30,6 @@ class Petugas extends CI_Controller {
 	public function index()
 	{
 
-<<<<<<< HEAD
-		$this->load->view('template/header');
-		$this->load->view('petugas/petugas_peminjaman');
-=======
 		$this->load->view('template/header_petugas');
 		$this->load->view('petugas/petugas_pembayaran');
 		$this->load->view('template/footer');
@@ -71,16 +67,11 @@ class Petugas extends CI_Controller {
 
 		$this->load->view('template/header_petugas');
 		$this->load->view('petugas/petugas_pembatalan2');
->>>>>>> b31493f0f1cdf297e0add6e46321664876f6f978
 		$this->load->view('template/footer');
 	}
 	public function peminjaman()
 	{
 
-<<<<<<< HEAD
-		$this->load->view('template/header');
-		$this->load->view('petugas/peminjaman_sepeda');
-=======
 		$this->load->view('template/header_petugas');
 		$this->load->view('petugas/petugas_peminjaman');
 		$this->load->view('template/footer');
@@ -90,17 +81,10 @@ class Petugas extends CI_Controller {
 
 		$this->load->view('template/header_petugas');
 		$this->load->view('petugas/petugas_peminjaman2');
->>>>>>> b31493f0f1cdf297e0add6e46321664876f6f978
 		$this->load->view('template/footer');
 	}
 	public function pengembalian()
 	{
-<<<<<<< HEAD
-		$this->load->view('template/header');
-		$this->load->view('petugas/petugas_pengembalian');
-		$this->load->view('template/footer');
-	}
-=======
 		$this->load->view('template/header_petugas');
 		$this->load->view('petugas/petugas_pengembalian');
 		$this->load->view('template/footer');
@@ -117,5 +101,4 @@ class Petugas extends CI_Controller {
 		$this->load->view('petugas/petugas_pengembalian3');
 		$this->load->view('template/footer');
 	}
->>>>>>> b31493f0f1cdf297e0add6e46321664876f6f978
 }

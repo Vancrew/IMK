@@ -34,19 +34,11 @@ class Anggota extends CI_Controller {
 		$this->load->view('anggota/anggota_pendaftaran');
 		$this->load->view('template/footer');
 	}
-<<<<<<< HEAD
-	public function tambah_sepeda()
-	{
-
-		$this->load->view('template/header');
-		$this->load->view('admin/tambah_sepeda');
-=======
 	public function registrasi()
 	{
 
 		$this->load->view('template/header');
 		$this->load->view('anggota/anggota_pendaftaran');
->>>>>>> b31493f0f1cdf297e0add6e46321664876f6f978
 		$this->load->view('template/footer');
 	}
 	public function reservasi()
@@ -55,13 +47,10 @@ class Anggota extends CI_Controller {
 		$this->load->view('anggota/anggota_reservasi');
 		$this->load->view('template/footer');
 	}
-<<<<<<< HEAD
-=======
 	public function reservasi2()
 	{
 		$this->load->view('template/header');
 		$this->load->view('anggota/anggota_reservasi2');
 		$this->load->view('template/footer');
 	}
->>>>>>> b31493f0f1cdf297e0add6e46321664876f6f978
 }

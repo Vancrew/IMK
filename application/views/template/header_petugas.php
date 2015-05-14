@@ -154,7 +154,7 @@
             <span class="icon-thumbnail"><i class="fa fa-arrow-circle-o-right"></i></span>
           </li>
           <li class="">
-            <a href="Pengembalian"><span class="title">Log Out</span></a>
+            <a href="Pengembalian"><span class="title">Keluar</span></a>
             <span class="icon-thumbnail"><i class="fa fa-sign-out"></i></span>
           </li>
           
